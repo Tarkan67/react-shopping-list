@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.shopping-list-grid {
+  display: grid;
+  grid-template-columns: min-content min-content;
+}
+
+.shopping-item {
+  justify-self: start;
+  display: flex;
+  padding: 10px;
+  margin: 5px;
+}
+
+.hide {
+  display: none;
+}
